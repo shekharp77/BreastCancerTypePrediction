@@ -10,3 +10,5 @@ Just install Anaconda as it contains all the scientific python libraries
   
 change the value of random state in line 17 to change accuracy
 currentry it is set to 5 for best accuracy of given data i.e. 97.9%
+
+bdata excel sheet contains the data
