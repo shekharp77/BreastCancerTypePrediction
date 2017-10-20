@@ -1,5 +1,5 @@
 # BreastCancerTypePrediction
-The programme written in python uses Machine learning to predict whether the breast cancer is Malignant or Benign
+The programme written in python uses Machine learning to predict whether the breast cancer is of type Malignant or Benign
 you need to install following python libraraies:
   1) Scipy
   2) Numpy
