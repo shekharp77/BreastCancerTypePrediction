@@ -22,7 +22,7 @@ y_predlog = logreg.predict(X_test)
 print("Accuracy (%): ")
 print(metrics.accuracy_score(y_predlog,y_test))
 
-#to enter your own values uncumment the following lines of code
+#to enter your own values modify the following lines of code
 logreg.fit(X, y)
 sample = [19.17,	24.8,	132.4,	1123,	0.0974,	0.2458,	0.2065,	0.1118,	0.2397,	0.078,	0.9555,	3.568,	11.07,	116.2,	0.003139,	0.08297, 0.0889,	0.0409,	0.04484,	0.01284,	20.96,	29.94,	151.7,	1332,	0.1037,	0.3903,	0.3639,	0.1767,	0.3176,	0.1023]
 f_sample = np.reshape(sample, (1, -1))#pass an array of your readings in argument example predict(sample)
